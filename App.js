@@ -13,12 +13,12 @@ export default function App() {
                 <Stack.Screen
                     name="Lista"
                     component={ListScreen}
-                    options={{ title: "Posts" }}
+                    options={{ title: "Demon Slayer" }}
                 />
                 <Stack.Screen
                     name="Detalhe"
                     component={DetailScreen}
-                    options={{ title: "Detalhe do Post" }}
+                    options={{ title: "Detalhes" }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
