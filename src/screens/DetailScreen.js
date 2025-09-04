@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     },
 
     hero: {
-        height: 320,
+        height: 280,
         position: "relative",
         justifyContent: "flex-end",
     },

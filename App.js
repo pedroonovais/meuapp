@@ -13,12 +13,18 @@ export default function App() {
                 <Stack.Screen
                     name="Lista"
                     component={ListScreen}
-                    options={{ title: "Demon Slayer" }}
+                    options={{ 
+                        title: "Demon Slayer",
+                        headerTitleAlign: "center",
+                    }}
                 />
                 <Stack.Screen
                     name="Detalhe"
                     component={DetailScreen}
-                    options={{ title: "Detalhes" }}
+                    options={{ 
+                        title: "Detalhes",
+                        headerTitleAlign: "center",
+                    }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
